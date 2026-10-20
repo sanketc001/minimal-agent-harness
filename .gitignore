@@ -1,0 +1,20 @@
+# Secrets
+.env*
+!.env.example
+
+# Editor / tool settings
+.claude/
+.vscode/
+AGENTS.md
+CLAUDE.md
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Agent memory vault: session logs, research artifacts and screenshots are
+# generated at runtime and may contain personal data. Keep only the folder.
+Memory/*
+!Memory/.gitkeep
